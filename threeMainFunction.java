@@ -11,7 +11,10 @@ public class threeMainFunction {
             this.data = data;
         }
     }
-    public void function(){
-        
+    public static node isEmpty(node data){
+        return data;
+    }
+    public static void function(){
+
     }
 }
