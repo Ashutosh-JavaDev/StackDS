@@ -11,4 +11,7 @@ public class threeMainFunction {
             this.data = data;
         }
     }
+    public void function(){
+        
+    }
 }
