@@ -33,6 +33,7 @@ public class threeMainFunction {
                return -1;
             }
             int top=head.data;
+            head.next=head;
             return top;
         }
     }
