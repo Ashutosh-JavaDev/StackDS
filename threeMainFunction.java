@@ -36,6 +36,13 @@ public class threeMainFunction {
             head.next=head;
             return top;
         }
+        public static int push(){
+              if(isEmpty()){
+               return -1;
+            }
+            return head.data;
+           
+        }
     }
 
     public static void main(String[] args) {
