@@ -19,5 +19,14 @@ public class PeekPopPush {
         public static boolean isEmpty() {
             return head == null;
         }
+
+        public static void push(int data) {
+            nodeing newHead = new nodeing(data);
+            if (isEmpty()) {
+                head = newHead;
+            }
+            newHead.next = head;
+            head = newHead;
+        }
     }
 }
