@@ -20,7 +20,7 @@ public class threeMainFunction {
         public static boolean isEmpty() {
             return head == null;
         }
-        public static void peek(int data){
+        public static void push(int data){
             Node newNode=new Node(data);
             if(isEmpty()){
                 head=newNode;
@@ -36,7 +36,7 @@ public class threeMainFunction {
             head.next=head;
             return top;
         }
-        public static int push(){
+        public static int peek(){
               if(isEmpty()){
                return -1;
             }
@@ -46,7 +46,7 @@ public class threeMainFunction {
     }
 
     public static void main(String[] args) {
-        Stack s = new Stack<>();
+       Stacking s=new Stacking();
         s.push(1);
         s.push(2);
         s.push(3);
