@@ -25,7 +25,8 @@ public class threeMainFunction {
             if(isEmpty()){
                 head=newNode;
             }
-            
+            newNode.next=head;
+            head=newNode;
         }
     }
 
