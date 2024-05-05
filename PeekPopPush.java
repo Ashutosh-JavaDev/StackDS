@@ -39,20 +39,21 @@ public class PeekPopPush {
             return top;
         }
 
-        public static int peek(){
-            if(isEmpty()){
+        public static int peek() {
+            if (isEmpty()) {
                 return -1;
             }
             return head.data;
         }
     }
-    public static void main(String[]args){
-        stack s=new stack();
+
+    public static void main(String[] args) {
+        stack s = new stack();
         s.push(12);
         s.push(13);
         s.push(14);
         s.push(15);
-        while(!s.isEmpty()){
+        while (!s.isEmpty()) {
             System.out.println(s.peek());
             s.pop();
         }
