@@ -33,7 +33,7 @@ public class threeMainFunction {
                return -1;
             }
             int top=head.data;
-            head.next=head;
+            head=head.next;
             return top;
         }
         public static int peek(){
@@ -51,7 +51,10 @@ public class threeMainFunction {
         s.push(2);
         s.push(3);
         s.push(4);
-       
+       while(!s.isEmpty()){
+        System.out.println(s.peek());
+        s.pop();
+       }
 
     }
 }
