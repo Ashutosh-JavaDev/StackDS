@@ -12,4 +12,12 @@ public class PeekPopPush {
             next = null;
         }
     }
+
+    static class stack {
+        public static nodeing head;
+
+        public static boolean isEmpty() {
+            return head == null;
+        }
+    }
 }
