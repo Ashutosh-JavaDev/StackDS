@@ -20,6 +20,13 @@ public class threeMainFunction {
         public static boolean isEmpty() {
             return head == null;
         }
+        public static void peek(int data){
+            Node newNode=new Node(data);
+            if(isEmpty()){
+                head=newNode;
+            }
+            
+        }
     }
 
     public static void main(String[] args) {
