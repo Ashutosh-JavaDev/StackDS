@@ -15,7 +15,11 @@ public class threeMainFunction {
     }
 
     static class Stacking {
+        public static Node head;
 
+        public static boolean isEmpty() {
+            return head == null;
+        }
     }
 
     public static void main(String[] args) {
