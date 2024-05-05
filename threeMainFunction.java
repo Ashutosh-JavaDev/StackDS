@@ -28,6 +28,13 @@ public class threeMainFunction {
             newNode.next=head;
             head=newNode;
         }
+        public static int pop(){
+              if(isEmpty()){
+               return -1;
+            }
+            int top=head.data;
+            return top;
+        }
     }
 
     public static void main(String[] args) {
