@@ -24,9 +24,19 @@ public class PeekPopPush {
             nodeing newHead = new nodeing(data);
             if (isEmpty()) {
                 head = newHead;
+                return;
             }
             newHead.next = head;
             head = newHead;
+        }
+
+        public static int pop() {
+            if (isEmpty()) {
+                return -1;
+            }
+            int top = head.data;
+            head = head.next;
+            return top;
         }
     }
 }
