@@ -1,6 +1,6 @@
 package StackDS;
 
-import java.util.Stack;
+// import java.util.Stack;
 
 public class PeekPopPush {
     static class nodeing {
